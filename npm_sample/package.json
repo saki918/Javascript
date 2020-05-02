@@ -1,0 +1,22 @@
+{
+  "name": "npm_sample",
+  "version": "1.0.0",
+  "description": "Sample Code for npm package article",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/babel src --out-dir dist && node dist/index.js"
+  },
+  "keywords": [
+    "Progate"
+  ],
+  "author": "Progate, Inc.",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "chalk": "^4.0.0",
+    "readline-sync": "^1.4.10"
+  },
+  "private": true
+}
